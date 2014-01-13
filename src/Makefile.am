@@ -4,6 +4,7 @@ openlitespeed_LDADD =  ./main/libmain.a ./http/libhttp.a ./spdy/libspdy.a \
         ./extensions/libextensions.a ./log4cxx/liblog4cxx.a \
         ./socket/libsocket.a ./sslpp/libsslpp.a  ./ssi/libssi.a ./edio/libedio.a ./util/libutil.a \
         -lexpat -lssl -lz -lcrypto -lpcre -lGeoIP
+        -$(EXPAT_LDFLAGS) $(OPENSSL_LIBS) $(PCRE_LIBS) -lGeoIP -lz 
 
 
 
