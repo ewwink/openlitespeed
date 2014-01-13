@@ -37,11 +37,16 @@
 #include <ctype.h>
 #include <fcntl.h>
 #include <stdio.h>
+#ifndef _SYS_TIME_H_
+#define _SYS_TIME_H_
 #include <time.h>
 #include <sys/time.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <iostream>
+
+using namespace std;
 
 static AutoStr2 s_ErrMsg = "";
 const char* getStaplingErrMsg(){ return s_ErrMsg.c_str(); }
