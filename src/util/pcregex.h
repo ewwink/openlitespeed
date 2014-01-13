@@ -21,7 +21,7 @@
 
 
 #include <util/autostr.h>
-#include <pcre.h>
+#include "/app/vendor/pcre/include/pcre.h"
 
 //#define _USE_PCRE_JIT_
 
