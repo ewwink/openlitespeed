@@ -15,7 +15,7 @@
 *    You should have received a copy of the GNU General Public License       *
 *    along with this program. If not, see http://www.gnu.org/licenses/.      *
 *****************************************************************************/
-#include <times.h>
+
 #include <sslpp/sslocspstapling.h>
 #include "main/httpserverbuilder.h"
 #include <http/httpglobals.h>
@@ -37,6 +37,8 @@
 #include <ctype.h>
 #include <fcntl.h>
 #include <stdio.h>
+#include <time.h>
+#include <sys/time.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
