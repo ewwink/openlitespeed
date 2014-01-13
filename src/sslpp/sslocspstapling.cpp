@@ -299,7 +299,7 @@ int SslOcspStapling::getRequestData(unsigned char *pReqData)
     if ( ocsp == NULL )
         return -1;
     
-    id = (char**)OCSP_CERTID_dup(m_pCertId);
+    id = (unsigned char*)OCSP_CERTID_dup(m_pCertId);
     if ( OCSP_request_add0_id(ocsp, id) != NULL )
     {
         len = i2d_OCSP_REQUEST(ocsp, &pReqData);
