@@ -21,8 +21,8 @@
 
 #include <inttypes.h>
 
-#include "GeoIP.h"
-#include "GeoIPCity.h"
+#include "/app/vendor/geoip/include/GeoIP.h"
+#include "/app/vendor/geoip/include/GeoIPCity.h"
 
 //class HttpReq;
 class IEnv;
