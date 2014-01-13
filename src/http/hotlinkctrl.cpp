@@ -19,7 +19,7 @@
 
 #include <util/pcregex.h>
 
-#include <pcreposix.h>
+#include "/app/vendor/pcre/include/pcreposix.h"
 #include <string.h>
 
 
