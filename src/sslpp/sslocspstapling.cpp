@@ -37,8 +37,6 @@
 #include <ctype.h>
 #include <fcntl.h>
 #include <stdio.h>
-#ifndef _SYS_TIME_H_
-#define _SYS_TIME_H_
 #include <time.h>
 #include <sys/time.h>
 #include <sys/types.h>
