@@ -28,7 +28,7 @@
 
 #include <assert.h>
 #include <ctype.h>
-#include <pcreposix.h>
+#include "/app/vendor/pcre/include/pcreposix.h"
 #include <string.h>
 
 static const char * s_pCurLine          = NULL;
